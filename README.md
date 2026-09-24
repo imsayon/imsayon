@@ -22,19 +22,3 @@
 <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman">
 <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel">
 </p>
-
-## 📊 GitHub Stats
-
-<p>
-<img src="https://github-stats-extended.vercel.app/api?username=YOUR_USERNAME&custom_title=YOUR_NAME%27s%20GitHub%20Stats&hide_rank=true&show_icons=false&theme=radical&bg_color=15131c&title_color=A970FF&text_color=52F0C2&border_color=FFFFFF" alt="GitHub Stats">
-</p>
-
-<p>
-<a href="https://git.io/streak-stats">
-<img src="https://streak-stats.demolab.com/?user=YOUR_USERNAME&theme=dark&background=15131c&border=FFFFFF&stroke=FFFFFF&ring=A970FF&fire=FFB86C&currStreakNum=A970FF&sideNums=A970FF&currStreakLabel=FFB86C&sideLabels=A970FF&dates=52F0C2&timezone=Asia%2FKolkata" alt="GitHub Streak">
-</a>
-</p>
-
-<p>
-<img src="https://github-stats-extended.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&langs_count=6&theme=radical&bg_color=15131c&title_color=A970FF&text_color=52F0C2&border_color=FFFFFF" alt="Most Used Languages">
-</p>
