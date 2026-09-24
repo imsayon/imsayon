@@ -1,34 +1,32 @@
-<h1 align="center">Sayon</h1>
-
-<p align="center">
-  <em>Backend · Distributed Systems · DevOps · GenAI</em>
-</p>
-
-<p align="center">
-  <code>backend engineer in progress</code>
-  <code>open-source enthusiast</code>
-</p>
+# Sayon
 
 ---
 
-### `$ whoami`
+> *Backend · Distributed Systems · DevOps · GenAI*
 
-Backend-focused developer interested in building scalable systems,
-understanding infrastructure, and working close to the underlying
-systems rather than hiding behind abstractions.
+— **CURRENTLY**
 
-### `$ currently`
+Building backend and distributed systems.  
+Exploring DevOps, observability, and GenAI.  
+Grinding DSA and competitive programming.
 
-- Building backend and distributed systems.
-- Exploring DevOps, observability, and GenAI.
-- Interested in building and contributing to open-source projects.
-- Grinding DSA and competitive programming.
+— **ELSEWHERE**
+
+[sayon731@gmail.com](mailto:sayn731@gmail.com) ·
+[LinkedIn](https://www.linkedin.com/in/sayon-m-7682b1220/) ·
+[GitHub](https://github.com/imsayon)
+
+— **WORK**
+
+1. **Cronix** — distributed cron scheduling system.
+2. **Varta** — notification infrastructure with queues, workers, AI orchestration, and observability.
+3. **Laminardb** — LSM-tree based key-value storage engine in C++.
 
 ---
 
-### `$ technical-stack`
+## TECHNICAL STACK
 
-#### Languages
+### Languages
 
 <p>
 <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++">
@@ -38,7 +36,7 @@ systems rather than hiding behind abstractions.
 <img src="https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL">
 </p>
 
-#### Backend
+### Backend
 
 <p>
 <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js">
@@ -46,13 +44,12 @@ systems rather than hiding behind abstractions.
 <img src="https://img.shields.io/badge/REST_APIs-005571?style=for-the-badge" alt="REST APIs">
 <img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white" alt="JWT">
 <img src="https://img.shields.io/badge/OAuth_2.0-EB5424?style=for-the-badge&logo=auth0&logoColor=white" alt="OAuth 2.0">
-<img src="https://img.shields.io/badge/Async_Processing-555555?style=for-the-badge" alt="Async Processing">
 <img src="https://img.shields.io/badge/Webhooks-555555?style=for-the-badge" alt="Webhooks">
 <img src="https://img.shields.io/badge/SSE-555555?style=for-the-badge" alt="SSE">
 <img src="https://img.shields.io/badge/WebSockets-010101?style=for-the-badge&logo=socketdotio&logoColor=white" alt="WebSockets">
 </p>
 
-#### Database & Storage
+### Database & Storage
 
 <p>
 <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL">
@@ -65,7 +62,7 @@ systems rather than hiding behind abstractions.
 <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase">
 </p>
 
-#### Infrastructure & DevOps
+### Infrastructure & DevOps
 
 <p>
 <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
@@ -77,7 +74,7 @@ systems rather than hiding behind abstractions.
 <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white" alt="Nginx">
 </p>
 
-#### GenAI & Observability
+### GenAI & Observability
 
 <p>
 <img src="https://img.shields.io/badge/RAG_Pipelines-412991?style=for-the-badge" alt="RAG Pipelines">
@@ -87,7 +84,7 @@ systems rather than hiding behind abstractions.
 <img src="https://img.shields.io/badge/Embeddings-412991?style=for-the-badge" alt="Embeddings">
 </p>
 
-#### Systems
+### Systems
 
 <p>
 <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux">
@@ -95,7 +92,7 @@ systems rather than hiding behind abstractions.
 <img src="https://img.shields.io/badge/Bash-121011?style=for-the-badge&logo=gnubash&logoColor=white" alt="Bash">
 </p>
 
-#### Developer Tools
+### Developer Tools
 
 <p>
 <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git">
@@ -106,31 +103,12 @@ systems rather than hiding behind abstractions.
 
 ---
 
-### `$ projects`
+### COURSEWORK
 
-**Cronix** — Distributed cron scheduling system.
+`Data Structures & Algorithms` · `Operating Systems` · `Database Management Systems`
 
-**Varta** — Notification infrastructure with queues, workers,
-AI orchestration, observability, and multi-tenant backend architecture.
-
-**Laminardb** — LSM-tree based key-value storage engine in C++.
+`Computer Networks` · `Object-Oriented Programming` · `Compiler Design`
 
 ---
 
-### `$ coursework`
-
-`Data Structures & Algorithms` · `Operating Systems` · `DBMS`  
-`Computer Networks` · `OOP` · `Compiler Design`
-
----
-
-### `$ connect`
-
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sayn731@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sayon-m-7682b1220/)
-
----
-
-<p align="center">
-  <sub>issue №01 · 2026 · written in this README</sub>
-</p>
+<sub>issue №01 · 2026 · written in this README</sub>
