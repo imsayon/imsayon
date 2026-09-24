@@ -101,5 +101,5 @@
 </p>
 
 <p>
-<img src="https://github-stats-extended.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&langs_count=6&theme=radical&bg_color=15131c&title_color=A970FF&text_color=52F0C2&border_color=FFFFFF" alt="Most Used Languages">
+<img src="https://github-stats-extended.vercel.app/api/top-langs/?username=imsayon&layout=compact&langs_count=6&theme=radical&bg_color=15131c&title_color=A970FF&text_color=52F0C2&border_color=FFFFFF" alt="Most Used Languages">
 </p>
