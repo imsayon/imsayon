@@ -96,7 +96,7 @@
 
 <p>
 <a href="https://git.io/streak-stats">
-<img src="https://streak-stats.demolab.com/?user=YOUR_USERNAME&theme=dark&background=15131c&border=FFFFFF&stroke=FFFFFF&ring=A970FF&fire=FFB86C&currStreakNum=A970FF&sideNums=A970FF&currStreakLabel=FFB86C&sideLabels=A970FF&dates=52F0C2&timezone=Asia%2FKolkata" alt="GitHub Streak">
+<img src="https://streak-stats.demolab.com/?user=imsayon&theme=dark&background=15131c&border=FFFFFF&stroke=FFFFFF&ring=A970FF&fire=FFB86C&currStreakNum=A970FF&sideNums=A970FF&currStreakLabel=FFB86C&sideLabels=A970FF&dates=52F0C2&timezone=Asia%2FKolkata" alt="GitHub Streak">
 </a>
 </p>
 
