@@ -91,7 +91,7 @@
 ## 📊 GitHub Stats
 
 <p>
-<img src="https://github-stats-extended.vercel.app/api?username=YOUR_USERNAME&custom_title=Sayon%27s%20GitHub%20Stats&hide_rank=true&show_icons=false&theme=radical&bg_color=15131c&title_color=A970FF&text_color=52F0C2&border_color=FFFFFF" alt="GitHub Stats">
+<img src="https://github-stats-extended.vercel.app/api?username=imsayon&custom_title=Sayon%27s%20GitHub%20Stats&hide_rank=true&show_icons=false&theme=radical&bg_color=15131c&title_color=A970FF&text_color=52F0C2&border_color=FFFFFF" alt="GitHub Stats">
 </p>
 
 <p>
