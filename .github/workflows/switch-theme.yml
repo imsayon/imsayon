@@ -1,0 +1,52 @@
+name: Switch profile theme
+
+on:
+  workflow_dispatch:
+    inputs:
+      theme:
+        description: Profile theme
+        required: true
+        default: 01-editorial-card
+        type: choice
+        options:
+          - 01-editorial-card
+          - 02-typewriter-intro
+          - 03-activity-pulse
+          - 04-pacman-graph
+          - 05-monospace-cv
+          - 06-editorial-magazine
+          - 07-blueprint-schematic
+          - 08-swiss-grid
+          - 09-editorial-terminal
+          - 10-editorial-pulse
+          - 11-terminal-blueprint
+          - 12-engineering-arcade
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-theme
+  cancel-in-progress: false
+
+jobs:
+  switch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Apply selected theme
+        env:
+          PROFILE_THEME: ${{ inputs.theme }}
+        run: |
+          python3 scripts/switch_theme.py "$PROFILE_THEME"
+          git add README.md
+          if git diff --cached --quiet; then
+            echo "This theme is already active."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Switch profile to $PROFILE_THEME"
+          git push origin HEAD:main
