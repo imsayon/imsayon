@@ -1,22 +1,35 @@
-<h1 align="center">Hi 👋, I'm Sayon</h1>
-<p align="center">Backend-focused developer • Open-source enthusiast</p>
+<h1 align="center">Sayon</h1>
 
-## 👋 About Me
+<p align="center">
+  <em>Backend · Distributed Systems · DevOps · GenAI</em>
+</p>
 
-- Interested in backend, distributed systems, GenAI, and DevOps.
-- Interested in contributing to and building open-source projects.
-- Currently grinding DSA and competitive programming.
-- Focused on building scalable, production-grade backend systems.
-- Currently exploring system design, cloud infrastructure, observability, and AI-powered systems.
+<p align="center">
+  <code>backend engineer in progress</code>
+  <code>open-source enthusiast</code>
+</p>
 
-## 📫 Contact
+---
 
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sayn731@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sayon-m-7682b1220/)
+### `$ whoami`
 
-## 💻 Tech Stack
+Backend-focused developer interested in building scalable systems,
+understanding infrastructure, and working close to the underlying
+systems rather than hiding behind abstractions.
 
-### Languages
+### `$ currently`
+
+- Building backend and distributed systems.
+- Exploring DevOps, observability, and GenAI.
+- Interested in building and contributing to open-source projects.
+- Grinding DSA and competitive programming.
+
+---
+
+### `$ technical-stack`
+
+#### Languages
+
 <p>
 <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++">
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
@@ -25,19 +38,22 @@
 <img src="https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL">
 </p>
 
-### Backend
+#### Backend
+
 <p>
 <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js">
 <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express.js">
 <img src="https://img.shields.io/badge/REST_APIs-005571?style=for-the-badge" alt="REST APIs">
 <img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white" alt="JWT">
 <img src="https://img.shields.io/badge/OAuth_2.0-EB5424?style=for-the-badge&logo=auth0&logoColor=white" alt="OAuth 2.0">
+<img src="https://img.shields.io/badge/Async_Processing-555555?style=for-the-badge" alt="Async Processing">
 <img src="https://img.shields.io/badge/Webhooks-555555?style=for-the-badge" alt="Webhooks">
 <img src="https://img.shields.io/badge/SSE-555555?style=for-the-badge" alt="SSE">
 <img src="https://img.shields.io/badge/WebSockets-010101?style=for-the-badge&logo=socketdotio&logoColor=white" alt="WebSockets">
 </p>
 
-### Database & Storage
+#### Database & Storage
+
 <p>
 <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL">
 <img src="https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white" alt="Prisma">
@@ -49,7 +65,8 @@
 <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase">
 </p>
 
-### Infrastructure & DevOps
+#### Infrastructure & DevOps
+
 <p>
 <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
 <img src="https://img.shields.io/badge/Docker_Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker Compose">
@@ -60,7 +77,8 @@
 <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white" alt="Nginx">
 </p>
 
-### GenAI & Observability
+#### GenAI & Observability
+
 <p>
 <img src="https://img.shields.io/badge/RAG_Pipelines-412991?style=for-the-badge" alt="RAG Pipelines">
 <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" alt="LangChain">
@@ -69,37 +87,50 @@
 <img src="https://img.shields.io/badge/Embeddings-412991?style=for-the-badge" alt="Embeddings">
 </p>
 
-### Developer Tools
+#### Systems
+
+<p>
+<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux">
+<img src="https://img.shields.io/badge/Fedora_Linux-51A2DA?style=for-the-badge&logo=fedora&logoColor=white" alt="Fedora Linux">
+<img src="https://img.shields.io/badge/Bash-121011?style=for-the-badge&logo=gnubash&logoColor=white" alt="Bash">
+</p>
+
+#### Developer Tools
+
 <p>
 <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git">
 <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
-<img src="https://img.shields.io/badge/Bash-121011?style=for-the-badge&logo=gnubash&logoColor=white" alt="Bash">
-<img src="https://img.shields.io/badge/Fedora_Linux-51A2DA?style=for-the-badge&logo=fedora&logoColor=white" alt="Fedora Linux">
 <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VS Code">
 <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman">
 </p>
 
-## 📚 Coursework
+---
 
-- Data Structures & Algorithms
-- Operating Systems
-- Database Management Systems
-- Computer Networks
-- Object-Oriented Programming
-- Compiler Design
+### `$ projects`
 
-## 📊 GitHub Stats
+**Cronix** — Distributed cron scheduling system.
 
-<p>
-<img src="https://github-stats-extended.vercel.app/api?username=imsayon&custom_title=Sayon%27s%20GitHub%20Stats&hide_rank=true&show_icons=false&theme=radical&bg_color=15131c&title_color=A970FF&text_color=52F0C2&border_color=FFFFFF" alt="GitHub Stats">
-</p>
+**Varta** — Notification infrastructure with queues, workers,
+AI orchestration, observability, and multi-tenant backend architecture.
 
-<p>
-<a href="https://git.io/streak-stats">
-<img src="https://streak-stats.demolab.com/?user=imsayon&theme=dark&background=15131c&border=FFFFFF&stroke=FFFFFF&ring=A970FF&fire=FFB86C&currStreakNum=A970FF&sideNums=A970FF&currStreakLabel=FFB86C&sideLabels=A970FF&dates=52F0C2&timezone=Asia%2FKolkata" alt="GitHub Streak">
-</a>
-</p>
+**Laminardb** — LSM-tree based key-value storage engine in C++.
 
-<p>
-<img src="https://github-stats-extended.vercel.app/api/top-langs/?username=imsayon&layout=compact&langs_count=6&theme=radical&bg_color=15131c&title_color=A970FF&text_color=52F0C2&border_color=FFFFFF" alt="Most Used Languages">
+---
+
+### `$ coursework`
+
+`Data Structures & Algorithms` · `Operating Systems` · `DBMS`  
+`Computer Networks` · `OOP` · `Compiler Design`
+
+---
+
+### `$ connect`
+
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sayn731@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sayon-m-7682b1220/)
+
+---
+
+<p align="center">
+  <sub>issue №01 · 2026 · written in this README</sub>
 </p>
