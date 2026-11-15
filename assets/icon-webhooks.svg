@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" role="img" aria-label="Webhook delivery and signatures">
+<title>Webhook delivery and signatures</title>
+<rect width="48" height="48" rx="11" fill="#202b29"/>
+<rect x=".8" y=".8" width="46.4" height="46.4" rx="10.2" fill="none" stroke="#40584b"/>
+<g stroke="#a9e6c4" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" fill="none"><circle cx="16" cy="14" r="5"/><circle cx="34" cy="19" r="5"/><circle cx="22" cy="36" r="5"/><path d="M21 15 29 18M33 24 25 32M18 31 16 19"/><path d="M32 35h7m-3.5-3.5v7"/></g>
+</svg>
