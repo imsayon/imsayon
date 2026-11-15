@@ -86,7 +86,7 @@
 ## WORKS
 
 <div align="center">
-  <img src="./assets/card-tessera.svg" alt="Tessera — peer-to-peer artifact distribution (in development)" width="49%"/>
+  <a href="https://github.com/imsayon/tessera"><img src="./assets/card-tessera.svg" alt="Tessera — peer-to-peer artifact distribution (in development)" width="49%"/>
   <a href="https://github.com/imsayon/varta"><img src="./assets/card-varta.svg" alt="Varta — notification infrastructure" width="49%"/></a>
   <br/>
   <a href="https://github.com/imsayon/laminar-db"><img src="./assets/card-laminardb.svg" alt="LaminarDB — C++23 storage engine" width="49%"/></a>
