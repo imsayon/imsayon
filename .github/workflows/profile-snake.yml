@@ -1,0 +1,49 @@
+name: Generate sage contribution snake
+
+on:
+  push:
+    branches:
+      - preview/sage-terminal-snake
+      - main
+    paths:
+      - .github/workflows/profile-snake.yml
+  workflow_dispatch:
+  schedule:
+    - cron: "23 4 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-snake-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out current branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+          persist-credentials: true
+
+      - name: Generate real contribution calendar snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: imsayon
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          outputs: |
+            assets/snake-sage-dark.svg?color_snake=%239fd6b7&color_dots=%230d1514,%23162f26,%2327553f,%233e8662,%2368c394
+            assets/snake-sage-light.svg?color_snake=%23467960&color_dots=%23f3f7f4,%23d7e9dd,%23a9d8b7,%2375b892,%233d835f
+
+      - name: Commit generated SVGs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/snake-sage-dark.svg assets/snake-sage-light.svg
+          if ! git diff --cached --quiet; then
+            git commit -m "Refresh real GitHub contribution snake"
+            git push origin "HEAD:${{ github.ref_name }}"
+          fi
