@@ -5,7 +5,7 @@
   <radialGradient id="back"><stop stop-color="#29322f"/><stop offset="1" stop-color="#101315"/></radialGradient>
   <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" stroke="#4b5550" stroke-width=".6" fill="none" opacity=".20"/></pattern>
   <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#A3D9A5"/><stop offset="1" stop-color="#EDE8DF"/></linearGradient>
-  <pattern id="brushed" patternUnits="userSpaceOnUse" width="19" height="19"><path d="M0 1h19 M0 13h19" stroke="#EDE8DF" stroke-width=".32" opacity=".09"/><circle cx="8" cy="8" r=".42" fill="#EDE8DF" opacity=".11"/></pattern>
+  <pattern id="brushed" patternUnits="userSpaceOnUse" width="19" height="19"><path d="M0 1h19 M0 13h19" stroke="#EDE8DF" stroke-width=".32" opacity=".22"/><circle cx="8" cy="8" r=".42" fill="#EDE8DF" opacity=".25"/></pattern>
   <linearGradient id="metal" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#343838"/><stop offset=".55" stop-color="#1D2224"/><stop offset="1" stop-color="#101315"/></linearGradient>
 </defs>
 <style>
@@ -24,7 +24,7 @@
 <rect width="1200" height="440" fill="url(#grid)"/>
 <rect x="52" y="31" width="1096" height="372" rx="14" fill="#171B1D" stroke="#655e53" stroke-width="1.5"/>
 <rect x="56" y="35" width="1088" height="364" rx="12" fill="none" stroke="#9f917b" stroke-opacity=".30" stroke-width=".8"/>
-<rect x="58" y="79" width="1084" height="286" rx="4" fill="url(#brushed)" opacity=".33" pointer-events="none"/>
+<rect x="58" y="79" width="1084" height="286" rx="4" fill="url(#brushed)" opacity=".50" pointer-events="none"/>
 <rect x="52" y="31" width="1096" height="46" rx="14" fill="url(#metal)"/>
 <path d="M52 65H1148V77H52Z" fill="#252A2A"/>
 <path d="M52 77H1148" stroke="#5b625c"/>
