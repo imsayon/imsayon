@@ -93,69 +93,55 @@ def collect(token: str) -> tuple[Counter, int]:
     return totals, checked
 
 
+
 def render(totals: Counter, repo_count: int, synced: str) -> str:
-    if not isinstance(repo_count, int) or repo_count < 1:
+    """Create eight proportional horizontal bars using actual GitHub Linguist bytes."""
+    if type(repo_count) is not int or repo_count < 1:
         raise ValueError("Invalid repository count")
     items = sorted(totals.items(), key=lambda pair: (-pair[1], pair[0]))
-    if not items or any(type(v) is not int or v < 0 for _, v in items):
+    if not items or any(type(size) is not int or size < 0 for _, size in items):
         raise ValueError("Invalid language data")
     total = sum(size for _, size in items)
-    if total == 0:
+    if total <= 0:
         raise ValueError("Empty language sizes")
+
     leaders = items[:7]
-    other_bytes = sum(size for _, size in items[7:])
-    if other_bytes:
-        leaders.append(("Other", other_bytes))
+    remainder = sum(size for _, size in items[7:])
+    if remainder:
+        leaders.append(("Other", remainder))
 
-    pieces, legend = [], []
-    x = 40.0
-    palette = []
+    rows = []
     for index, (name, size) in enumerate(leaders):
-        color = COLORS.get(name, OTHER if name == "Other" else ["#80c3a0", "#c2b487", "#bf9aa6", "#849db7"][index % 4])
-        palette.append(color)
-        width = 1080.0 * size / total
-        if index == len(leaders) - 1:
-            width = max(0.0, 1120.0 - x)
-        pieces.append(
-            f'<g><title>{escape(name)}: {size * 100 / total:.1f}%</title>'
-            f'<rect x="{x:.2f}" y="80" width="{width:.2f}" height="21" fill="{color}"/></g>'
-        )
-        x += width
-
-    for i, (name, size) in enumerate(leaders):
-        col, row = i % 4, i // 4
-        lx, ly = 42 + col * 275, 145 + row * 57
         pct = 100.0 * size / total
-        legend.append(f'<g transform="translate({lx},{ly})">'
-                      f'<circle cx="0" cy="-4" r="5" fill="{palette[i]}"/>'
-                      f'<text x="16" y="0" class="name">{escape(name)}</text>'
-                      f'<text x="16" y="23" class="pct">{pct:.1f}%</text></g>')
+        track_width = 305.0
+        colored_width = track_width * size / total
+        y = 91 + index * 30
+        color = COLORS.get(
+            name,
+            OTHER if name == "Other" else
+            ["#80c3a0", "#c2b487", "#bf9aa6", "#849db7"][index % 4],
+        )
+        rows.append(
+            f'<g><title>{escape(name)}: {pct:.1f}%</title>'
+            f'<text x="25" y="{y + 5}" class="name">{escape(name)}</text>'
+            f'<rect x="143" y="{y - 6}" width="{track_width:.1f}" height="12" rx="6" fill="#29342e"/>'
+            f'<rect x="143" y="{y - 6}" width="{colored_width:.2f}" height="12" '
+            f'rx="{min(6.0, colored_width / 2):.2f}" fill="{color}"/>'
+            f'<text x="535" y="{y + 5}" text-anchor="end" class="pct">{pct:.1f}%</text></g>'
+        )
 
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1160 290" role="img" aria-labelledby="title desc">
-<title id="title">Languages used by file size</title>
-<desc id="desc">GitHub Linguist language bytes aggregated over {repo_count} public, owned, non-fork repositories. The chart reflects repository file sizes, not skill levels or commits.</desc>
-<defs>
-  <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
-    <stop stop-color="#13221c"/><stop offset="1" stop-color="#0b1310"/>
-  </linearGradient>
-  <clipPath id="bar"><rect x="40" y="80" width="1080" height="21" rx="6"/></clipPath>
-  <style>
-    .mono{{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}}
-    .name{{font-family:system-ui,Segoe UI,Arial,sans-serif;font-size:17px;font-weight:600;fill:#d2e5d8}}
-    .pct{{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:15px;fill:#94ac9c}}
-  </style>
-</defs>
-<rect width="1160" height="290" rx="16" fill="url(#background)"/>
-<rect x="1" y="1" width="1158" height="288" rx="15" fill="none" stroke="#345843" stroke-width="1.5"/>
-<text x="40" y="37" class="mono" font-size="14" font-weight="600" letter-spacing="1.7" fill="#b6dfc5">LANGUAGES / BY FILE SIZE</text>
-<text x="1120" y="37" text-anchor="end" class="mono" font-size="11" fill="#91b39f">{repo_count} PUBLIC REPOS</text>
-<line x1="40" y1="62" x2="1120" y2="62" stroke="#284535" stroke-width="1.4"/>
-<g clip-path="url(#bar)">{''.join(pieces)}</g>
-{''.join(legend)}
-<line x1="40" y1="261" x2="1120" y2="261" stroke="#284535" stroke-width="1.2"/>
-<text x="40" y="279" class="mono" font-size="10" fill="#719481">GITHUB LINGUIST / PUBLIC OWNED REPOS · EXCLUDES FORKS</text>
-<text x="1120" y="279" text-anchor="end" class="mono" font-size="10" fill="#719481">{escape(synced)}</text>
-</svg>'''
+    template_path = OUTPUT.parent / "templates" / "languages-compact.svg"
+    result = template_path.read_text(encoding="utf-8")
+    substitutions = {
+        "{{REPO_COUNT}}": str(repo_count),
+        "{{ROWS}}": "\n".join(rows),
+        "{{SYNCED}}": escape(synced),
+    }
+    for marker, replacement in substitutions.items():
+        if marker not in result:
+            raise RuntimeError(f"Missing language template marker: {marker}")
+        result = result.replace(marker, replacement)
+    return result
 
 
 def main():
