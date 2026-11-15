@@ -163,82 +163,30 @@ def collect(token: str, now: datetime) -> dict:
     }
 
 
+
 def render(stats: dict) -> str:
-    """Compact four-metric panel with a decorative circular current-streak gauge.
-
-    The ring is intentionally unsegmented: streaks have no meaningful
-    percentage denominator, and this graphic must not imply one.
-    """
-    def value(key: str) -> str:
-        item = stats[key]
-        if type(item) is not int or item < 0:
+    """Render the compact, verified activity dashboard using its SVG template."""
+    values = {}
+    for key in ("last_year", "lifetime", "current_streak", "longest_streak"):
+        number = stats[key]
+        if type(number) is not int or number < 0:
             raise ValueError(f"Invalid numeric metric: {key}")
-        return f"{item:,}"
+        values[key] = f"{number:,}"
 
-    last_year = value("last_year")
-    lifetime = value("lifetime")
-    current = value("current_streak")
-    longest = value("longest_streak")
-
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1160 340" role="img" aria-labelledby="title desc">
-<title id="title">Sayon GitHub engineering activity</title>
-<desc id="desc">Verified GitHub contributions: {last_year} in the past 365 days, {lifetime} all time. Current streak {current} days, longest streak {longest} days. Circular frame is decorative, not a percentage.</desc>
-<defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-    <stop stop-color="#13221c"/><stop offset="1" stop-color="#0b1310"/>
-  </linearGradient>
-  <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
-    <stop stop-color="#b0e9ca"/><stop offset="1" stop-color="#6dba92"/>
-  </linearGradient>
-  <style>
-    .mono{{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}}
-    .heading{{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:13px;font-weight:600;letter-spacing:2px;fill:#91bd9e}}
-    .metric{{font-family:system-ui,Segoe UI,Arial,sans-serif;font-size:54px;font-weight:700;fill:#daf1df;font-variant-numeric:tabular-nums}}
-    .unit{{font-family:system-ui,Segoe UI,Arial,sans-serif;font-size:17px;fill:#9fb4a6}}
-    .dot{{animation:pulse 2.6s ease-in-out infinite}}
-    @keyframes pulse{{50%{{opacity:.45}}}}
-    @media(prefers-reduced-motion:reduce){{.dot{{animation:none}}}}
-  </style>
-</defs>
-<rect width="1160" height="340" rx="16" fill="url(#bg)"/>
-<rect x="1" y="1" width="1158" height="338" rx="15" fill="none" stroke="#345843" stroke-width="1.5"/>
-<path d="M40 64H1120" stroke="#284535" stroke-width="1.3"/>
-<text x="40" y="38" class="mono" font-size="14" font-weight="600" letter-spacing="1.8" fill="#b6dfc5">GITHUB / ENGINEERING ACTIVITY</text>
-<circle class="dot" cx="930" cy="33" r="4.5" fill="#8fdbad"/>
-<text x="945" y="38" class="mono" font-size="11" fill="#8cba9b">API VERIFIED</text>
-
-<path d="M299 90V290 M578 90V290 M910 90V290" stroke="#2c4939" stroke-width="1.4"/>
-
-<g transform="translate(44 0)">
-  <text x="0" y="119" class="heading">LAST 365 DAYS</text>
-  <text x="0" y="198" class="metric">{last_year}</text>
-  <text x="0" y="230" class="unit">contributions</text>
-</g>
-<g transform="translate(325 0)">
-  <text x="0" y="119" class="heading">ALL TIME</text>
-  <text x="0" y="198" class="metric">{lifetime}</text>
-  <text x="0" y="230" class="unit">contributions</text>
-</g>
-
-<!-- Circular streak illustration: a full ring, never a percentage dial. -->
-<circle cx="744" cy="186" r="68" fill="#11231a" stroke="#284b37" stroke-width="11"/>
-<circle cx="744" cy="186" r="68" fill="none" stroke="url(#ring)" stroke-width="7"/>
-<circle cx="744" cy="186" r="54" fill="none" stroke="#315642" stroke-width="1" opacity=".65"/>
-<path d="M744 108c-2 9-11 13-11 22a11 11 0 0 0 22 0c0-6-4-10-6-15-1 6-4 7-6 9 2-6 1-11 1-16z" fill="#9fddba" stroke="#11231a" stroke-width="3" stroke-linejoin="round"/>
-<text x="744" y="196" class="metric" font-size="52" text-anchor="middle">{current}</text>
-<text x="744" y="225" class="mono" font-size="12" letter-spacing="2" fill="#96bba4" text-anchor="middle">DAYS</text>
-<text x="744" y="284" class="heading" text-anchor="middle">CURRENT STREAK</text>
-
-<g transform="translate(947 0)">
-  <text x="0" y="119" class="heading">LONGEST STREAK</text>
-  <text x="0" y="198" class="metric">{longest}</text>
-  <text x="0" y="230" class="unit">days</text>
-</g>
-
-<path d="M40 310H1120" stroke="#284535" stroke-width="1.2"/>
-<text x="41" y="328" class="mono" font-size="10.5" fill="#719481">SOURCE: GITHUB CONTRIBUTION CALENDAR</text>
-<text x="1118" y="328" text-anchor="end" class="mono" font-size="10.5" fill="#719481">SYNCED {escape(str(stats['as_of']))}</text>
-</svg>'''
+    substitutions = {
+        "{{LAST_YEAR}}": values["last_year"],
+        "{{LIFETIME}}": values["lifetime"],
+        "{{CURRENT}}": values["current_streak"],
+        "{{LONGEST}}": values["longest_streak"],
+        "{{SYNCED}}": escape(str(stats["as_of"])),
+    }
+    template_path = OUTPUT.parent / "templates" / "activity-compact.svg"
+    result = template_path.read_text(encoding="utf-8")
+    for marker, replacement in substitutions.items():
+        if marker not in result:
+            raise RuntimeError(f"Missing activity template marker: {marker}")
+        result = result.replace(marker, replacement)
+    return result
 
 
 def main() -> None:
