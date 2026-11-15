@@ -29,16 +29,29 @@ jobs:
           ref: ${{ github.ref_name }}
           persist-credentials: true
 
+      - name: Check authenticated contribution token
+        id: auth
+        env:
+          PROFILE_STATS_TOKEN: ${{ secrets.PROFILE_STATS_TOKEN }}
+        run: |
+          if [ -z "$PROFILE_STATS_TOKEN" ]; then
+            echo "ready=false" >> "$GITHUB_OUTPUT"
+            echo "::warning::Add PROFILE_STATS_TOKEN for authenticated snake regeneration."
+          else
+            echo "ready=true" >> "$GITHUB_OUTPUT"
+          fi
       - name: Generate real contribution calendar snake
+        if: steps.auth.outputs.ready == 'true'
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: imsayon
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.PROFILE_STATS_TOKEN }}
           outputs: |
-            assets/snake-sage-dark.svg?color_snake=%239fd6b7&color_dots=%230d1514,%23162f26,%2327553f,%233e8662,%2368c394
-            assets/snake-sage-light.svg?color_snake=%23467960&color_dots=%23f3f7f4,%23d7e9dd,%23a9d8b7,%2375b892,%233d835f
+            assets/snake-sage-dark.svg?palette=github-dark&color_snake=%2339d353
+            assets/snake-sage-light.svg?palette=github-light&color_snake=%232ea043
 
       - name: Commit generated SVGs
+        if: steps.auth.outputs.ready == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
