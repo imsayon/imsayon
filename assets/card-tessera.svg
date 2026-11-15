@@ -1,14 +1,26 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="560" height="190" viewBox="0 0 560 190" role="img" aria-label="Tessera — Peer-to-peer artifact distribution">
-<defs><linearGradient id="border" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#578b70"/><stop offset="1" stop-color="#2a473b"/></linearGradient></defs>
-<rect width="560" height="190" rx="14" fill="#101816"/>
-<rect x="1.3" y="1.3" width="557.4" height="187.4" rx="12.7" fill="none" stroke="url(#border)" stroke-width="2"/>
-<rect x="25" y="23" width="30" height="3" rx="1.5" fill="#94d4b2"/>
-<text x="25" y="51" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="11.5" letter-spacing="1.45" fill="#94b6a5">P2P / IN DEVELOPMENT</text>
-<text x="25" y="100" font-family="system-ui,Segoe UI,Arial,sans-serif" font-size="32" font-weight="700" fill="#e9f4ed">Tessera</text>
-<text x="26" y="132" font-family="system-ui,Segoe UI,Arial,sans-serif" font-size="14" fill="#bed4c6">Peer-to-peer artifact distribution</text>
-<text x="26" y="155" font-family="system-ui,Segoe UI,Arial,sans-serif" font-size="13.5" fill="#8eaa9c">Content addressing · network systems</text>
+<defs>
+ <linearGradient id="border" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#D1773C"/><stop offset="1" stop-color="#454C4A"/></linearGradient>
+ <linearGradient id="graphite" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#272A2C"/><stop offset=".48" stop-color="#1A1D1F"/><stop offset="1" stop-color="#131719"/></linearGradient>
+ <pattern id="etch" width="13" height="13" patternUnits="userSpaceOnUse"><path d="M0 12h13" fill="none" stroke="#EDE8DF" opacity=".11" stroke-width=".35"/><circle cx="3" cy="6" r=".35" fill="#EDE8DF" opacity=".17"/></pattern>
+</defs>
+<rect width="560" height="190" rx="14" fill="url(#graphite)"/>
+<rect x="3" y="3" width="554" height="184" rx="11" fill="url(#etch)" opacity=".26"/>
+<g opacity=".29" stroke="#D1773C" fill="none" stroke-width=".85"><circle cx="416" cy="97" r="66" stroke-dasharray="3 9"/><path d="M349 47l25 11 22-13 26 18 M374 58l6 33-19 16M396 45l7 38 19-20"/><circle cx="349" cy="47" r="2.5" fill="#D1773C"/><circle cx="403" cy="83" r="2.5" fill="#D1773C"/></g>
+<g fill="none" stroke="#D1773C" stroke-width=".9" opacity=".7">
+  <path d="M13 13h60l11 8h44 M436 13h73l16 10h22"/>
+  <path d="M14 176h64l10-8 M438 176h38l8-7h62"/>
+  <path d="M503 166l6-8m5 8 6-8m5 8 6-8" stroke-width="1.8"/>
+</g>
+<g fill="#686965" stroke="#C9BCA6" stroke-width=".55" opacity=".75"><circle cx="11" cy="11" r="2.1"/><circle cx="549" cy="11" r="2.1"/><circle cx="11" cy="179" r="2.1"/><circle cx="549" cy="179" r="2.1"/></g>
+<rect x="1.3" y="1.3" width="557.4" height="187.4" rx="12.7" fill="none" stroke="url(#border)" stroke-width="1.15"/>
+<rect x="25" y="23" width="30" height="3" rx="1.5" fill="#D1773C"/>
+<text x="25" y="51" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="11.5" letter-spacing="1.45" fill="#ACB4A9">P2P / IN DEVELOPMENT</text>
+<text x="25" y="100" font-family="system-ui,Segoe UI,Arial,sans-serif" font-size="32" font-weight="700" fill="#EDE8DF">Tessera</text>
+<text x="26" y="132" font-family="system-ui,Segoe UI,Arial,sans-serif" font-size="14" fill="#D9D7CD">Peer-to-peer artifact distribution</text>
+<text x="26" y="155" font-family="system-ui,Segoe UI,Arial,sans-serif" font-size="13.5" fill="#A9AEA5">Content addressing · network systems</text>
 <g transform="translate(462 59)">
-<rect width="70" height="70" rx="17" fill="#1a3027" stroke="#456e57" stroke-width="1.2"/>
-<g stroke="#a8e7c1" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" fill="none"><path d="M35 12 51 21v22l-16 10-16-10V21Z"/><path d="M19 21 35 31 51 21M35 31v22"/><path d="M35 12V8m16 13 5-3M19 43l-5 3"/><circle cx="35" cy="8" r="2.7" fill="#a8e7c1" stroke="none"/><circle cx="56" cy="18" r="2.7" fill="#a8e7c1" stroke="none"/><circle cx="14" cy="46" r="2.7" fill="#a8e7c1" stroke="none"/></g>
+<rect width="70" height="70" rx="17" fill="#232729" stroke="#D1773C" stroke-width="1.2"/>
+<g stroke="#D1773C" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" fill="none"><path d="M35 12 51 21v22l-16 10-16-10V21Z"/><path d="M19 21 35 31 51 21M35 31v22"/><path d="M35 12V8m16 13 5-3M19 43l-5 3"/><circle cx="35" cy="8" r="2.7" fill="#D1773C" stroke="none"/><circle cx="56" cy="18" r="2.7" fill="#D1773C" stroke="none"/><circle cx="14" cy="46" r="2.7" fill="#D1773C" stroke="none"/></g>
 </g>
 </svg>
