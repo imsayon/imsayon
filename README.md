@@ -3,9 +3,9 @@
   <br/>
   <b>B.E. Information Science &amp; Engineering</b>
   <br/><br/>
-  <a href="https://www.linkedin.com/in/sayon-m-7682b1220/"><img src="https://img.shields.io/badge/LinkedIn-172c24?style=for-the-badge&logo=linkedin&logoColor=97d9b9" alt="LinkedIn"/></a>
-  <a href="mailto:sayn731@gmail.com"><img src="https://img.shields.io/badge/Email-172c24?style=for-the-badge&logo=gmail&logoColor=97d9b9" alt="Email"/></a>
-  <a href="https://github.com/imsayon?tab=repositories"><img src="https://img.shields.io/badge/Repositories-172c24?style=for-the-badge&logo=github&logoColor=97d9b9" alt="Repositories"/></a>
+  <a href="https://www.linkedin.com/in/sayon-m-7682b1220/"><img src="https://img.shields.io/badge/LinkedIn-202426?style=for-the-badge&logo=linkedin&logoColor=A3D9A5" alt="LinkedIn"/></a>
+  <a href="mailto:sayn731@gmail.com"><img src="https://img.shields.io/badge/Email-202426?style=for-the-badge&logo=gmail&logoColor=A3D9A5" alt="Email"/></a>
+  <a href="https://github.com/imsayon?tab=repositories"><img src="https://img.shields.io/badge/Repositories-202426?style=for-the-badge&logo=github&logoColor=A3D9A5" alt="Repositories"/></a>
 </div>
 
 - Building **backend infrastructure** and exploring **distributed systems**.
