@@ -1,8 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 190" role="img" aria-label="LaminarDB project card: Embedded C++23 key-value store Append-only log · recovery · compaction">
-<rect width="560" height="190" rx="12" fill="#101a17"/><rect x="1" y="1" width="558" height="188" rx="11" fill="none" stroke="#355747" stroke-width="2"/>
-<path d="M26 23H85" stroke="#8fd0a9" stroke-width="3"/><text x="26" y="50" font-size="12" font-family="monospace" fill="#91ad9e" letter-spacing="2">03 / STORAGE ENGINE</text>
-<text x="26" y="102" font-size="34" font-family="system-ui,Segoe UI,sans-serif" font-weight="700" fill="#e6f3eb">LaminarDB</text>
-<text x="28" y="131" font-family="system-ui,Segoe UI,sans-serif" font-size="15" fill="#b6cbc0">Embedded C++23 key-value store</text>
-<text x="28" y="153" font-family="system-ui,Segoe UI,sans-serif" font-size="15" fill="#b6cbc0">Append-only log · recovery · compaction</text>
-<circle cx="486" cy="85" r="42" fill="#1c352a" stroke="#57866c" stroke-width="1.5"/><text x="486" y="99" fill="#b9e5cb" text-anchor="middle" font-size="43" font-family="system-ui,Segoe UI,sans-serif" font-weight="650">L</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="190" viewBox="0 0 560 190" role="img" aria-label="LaminarDB — Embedded C++23 key-value store">
+<defs><linearGradient id="border" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#78bb99"/><stop offset="1" stop-color="#2a473b"/></linearGradient><linearGradient id="badge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#254b3a"/><stop offset="1" stop-color="#142720"/></linearGradient></defs>
+<rect width="560" height="190" rx="14" fill="#101816"/>
+<rect x="1.3" y="1.3" width="557.4" height="187.4" rx="12.7" fill="none" stroke="url(#border)" stroke-width="2"/>
+<rect x="25" y="23" width="30" height="3" rx="1.5" fill="#94d4b2"/>
+<text x="25" y="51" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="11.5" letter-spacing="1.45" fill="#94b6a5">STORAGE ENGINE</text>
+<text x="25" y="100" font-family="system-ui,Segoe UI,Arial,sans-serif" font-size="32" font-weight="700" fill="#e9f4ed">LaminarDB</text>
+<text x="26" y="132" font-family="system-ui,Segoe UI,Arial,sans-serif" font-size="14" fill="#bed4c6">Embedded C++23 key-value store</text>
+<text x="26" y="155" font-family="system-ui,Segoe UI,Arial,sans-serif" font-size="13.5" fill="#8eaa9c">Log · index · recovery · compaction</text>
+<g transform="translate(432 42)"><rect width="96" height="96" rx="22" fill="url(#badge)" stroke="#46715a" stroke-width="1.5"/><g fill="none" stroke="#a3e6bf" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"><ellipse cx="48" cy="25" rx="29" ry="11"/><path d="M19 25V44C19 50 32 55 48 55S77 50 77 44V25"/><path d="M19 45V65C19 71 32 76 48 76S77 71 77 65V45"/><path d="M29 61H38M29 40H38"/></g><circle cx="66" cy="43" r="3" fill="#d5f4e2"/><circle cx="66" cy="64" r="3" fill="#d5f4e2"/></g>
 </svg>
