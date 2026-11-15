@@ -2,59 +2,50 @@
 
 ---
 
-> *Backend engineering · systems · infrastructure · AI*
+> *Backend engineering · distributed systems · infrastructure*
 
-Backend-focused developer building toward scalable, production-grade systems. Interested in distributed systems, infrastructure, GenAI, and open source.
+I build backend services and developer infrastructure, with a focus on reliability, concurrency, and the systems underneath everyday software.
 
 — **CURRENTLY**
 
-Practicing DSA and competitive programming. Exploring system design, cloud infrastructure, observability, and AI-powered systems.
+Studying storage engines, distributed systems, and system design. Practicing data structures, algorithms, and competitive programming.
 
-— **WORK**
+— **SELECTED WORK**
 
-- **[Cronix](https://github.com/imsayon/chronix)** — distributed cron scheduling system.
-- **[Varta](https://github.com/imsayon/varta)** — notification infrastructure with queues, workers, AI orchestration, and observability.
-- **[Laminardb](https://github.com/imsayon/laminar-db)** — LSM-tree based key-value storage engine in C++.
+- **[Chronix](https://github.com/imsayon/chronix)** — multi-tenant job scheduling and webhook delivery; transactional outbox, leased workers, and at-least-once execution.
+- **[Varta](https://github.com/imsayon/varta)** — multi-tenant notification infrastructure for email, in-app messages, and webhooks.
+- **[LaminarDB](https://github.com/imsayon/laminar-db)** — embedded C++23 key-value store with an append-only log, in-memory hash index, recovery, and compaction.
 
 — **TECHNICAL INDEX**
 
 <details>
-<summary>Technical stack</summary>
+<summary>Tools and technologies</summary>
 
-**Languages**<br>
-C++ · JavaScript · TypeScript · Python · SQL
+**Languages**  
+C++ · TypeScript · JavaScript · SQL
 
-**Backend**<br>
-Node.js · Express.js · REST APIs · JWT · OAuth 2.0 · Webhooks · SSE · WebSockets
+**Backend**  
+Node.js · Express · REST APIs · Webhooks · WebSockets · SSE · BullMQ
 
-**Database & Storage**<br>
-PostgreSQL · Prisma · pgvector · MongoDB · Mongoose · Redis · Firebase · Supabase
+**Data & storage**  
+PostgreSQL · Prisma · Redis · MongoDB
 
-**Infrastructure & DevOps**<br>
-Docker · Docker Compose · GitHub Actions · CI/CD · Prometheus · Grafana · Nginx
-
-**GenAI & Observability**<br>
-RAG Pipelines · LangChain · OpenTelemetry · Vector Search · Embeddings
-
-**Systems**<br>
-Linux · Fedora Linux · Bash
-
-**Developer Tools**<br>
-Git · GitHub · VS Code · Postman
+**Infrastructure**  
+Linux · Docker · Docker Compose · GitHub Actions · Prometheus · OpenTelemetry
 
 </details>
 
 <details>
-<summary>Coursework</summary>
+<summary>Computer science</summary>
 
-Data Structures & Algorithms · Operating Systems · Database Management Systems · Computer Networks · Object-Oriented Programming · Compiler Design
+Data structures & algorithms · Operating systems · Database systems · Computer networks · Distributed systems
 
 </details>
 
 — **ELSEWHERE**
 
-[Email](mailto:sayn731@gmail.com) · [LinkedIn](https://www.linkedin.com/in/sayon-m-7682b1220/) · [GitHub](https://github.com/imsayon)
+[LinkedIn](https://www.linkedin.com/in/sayon-m-7682b1220/) · [Email](mailto:sayn731@gmail.com)
 
 ---
 
-<sub>imsayon · backend / systems / open source</sub>
+<sub>imsayon / building to understand</sub>
