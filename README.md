@@ -15,19 +15,21 @@
 
 ## TOOLCHAIN
 
-**Languages**
-
-<p>
+<table width="100%">
+<tr>
+  <td width="50%" valign="top">
+    <strong>Languages</strong>
+    <p>
   <img src="https://skillicons.dev/icons?i=cpp&amp;theme=dark" alt="C++" title="C++" width="44" height="44"/>
   <img src="https://skillicons.dev/icons?i=ts&amp;theme=dark" alt="TypeScript" title="TypeScript" width="44" height="44"/>
   <img src="https://skillicons.dev/icons?i=js&amp;theme=dark" alt="JavaScript" title="JavaScript" width="44" height="44"/>
 </p>
 
 <sub>C++ · TypeScript · JavaScript · SQL</sub>
-
-**Development**
-
-<p>
+  </td>
+  <td width="50%" valign="top">
+    <strong>Development</strong>
+    <p>
   <img src="https://skillicons.dev/icons?i=nodejs&amp;theme=dark" alt="Node.js" title="Node.js" width="44" height="44"/>
   <img src="https://skillicons.dev/icons?i=express&amp;theme=dark" alt="Express.js" title="Express.js" width="44" height="44"/>
   <img src="https://skillicons.dev/icons?i=nextjs&amp;theme=dark" alt="Next.js" title="Next.js" width="44" height="44"/>
@@ -35,10 +37,12 @@
 </p>
 
 <sub>Node.js · Express · Next.js · Tailwind CSS</sub>
-
-**Backend & messaging**
-
-<p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <strong>Backend &amp; messaging</strong>
+    <p>
   <img src="./assets/icon-auth.svg" alt="Authentication and access control" title="JWT · OAuth 2.0 · RBAC" width="44" height="44"/>
   <img src="./assets/icon-bullmq.svg" alt="BullMQ background jobs" title="BullMQ · Redis-backed queues" width="44" height="44"/>
   <img src="https://skillicons.dev/icons?i=kafka&amp;theme=dark" alt="Apache Kafka" title="Apache Kafka" width="44" height="44"/>
@@ -46,10 +50,10 @@
 </p>
 
 <sub>JWT · OAuth 2.0 · RBAC · BullMQ · Kafka · Webhooks</sub>
-
-**Data**
-
-<p>
+  </td>
+  <td width="50%" valign="top">
+    <strong>Data</strong>
+    <p>
   <img src="https://skillicons.dev/icons?i=postgres&amp;theme=dark" alt="PostgreSQL" title="PostgreSQL" width="44" height="44"/>
   <img src="https://skillicons.dev/icons?i=prisma&amp;theme=dark" alt="Prisma" title="Prisma" width="44" height="44"/>
   <img src="https://skillicons.dev/icons?i=mongodb&amp;theme=dark" alt="MongoDB" title="MongoDB" width="44" height="44"/>
@@ -57,10 +61,12 @@
 </p>
 
 <sub>PostgreSQL · Prisma · MongoDB · Redis</sub>
-
-**Infrastructure**
-
-<p>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top">
+    <strong>Infrastructure</strong>
+    <p>
   <img src="https://skillicons.dev/icons?i=docker&amp;theme=dark" alt="Docker" title="Docker" width="44" height="44"/>
   <img src="https://skillicons.dev/icons?i=linux&amp;theme=dark" alt="Linux" title="Linux" width="44" height="44"/>
   <img src="https://skillicons.dev/icons?i=githubactions&amp;theme=dark" alt="GitHub Actions" title="GitHub Actions" width="44" height="44"/>
@@ -69,11 +75,13 @@
 </p>
 
 <sub>Docker · Linux · GitHub Actions · Prometheus · Grafana</sub>
-
-**Core**
-
-`DSA` `Operating Systems` `DBMS` `Computer Networks` `System Design`
-
+  </td>
+  <td width="50%" valign="top">
+    <strong>Core</strong>
+    <p><code>DSA</code> <code>Operating Systems</code> <code>DBMS</code> <code>Computer Networks</code> <code>System Design</code></p>
+  </td>
+</tr>
+</table>
 
 ## WORKS
 
