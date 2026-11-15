@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1160" height="290" viewBox="0 0 1160 290" role="img" aria-label="Languages by file size: first GitHub scan pending">
+<rect width="1160" height="290" rx="16" fill="#0d1712"/>
+<rect x="1.5" y="1.5" width="1157" height="287" rx="15" fill="none" stroke="#345843" stroke-width="2"/>
+<text x="40" y="43" fill="#b6dfc5" font-family="monospace" font-size="18" letter-spacing="2">LANGUAGES / BY FILE SIZE</text>
+<path d="M40 65H1120" stroke="#284535"/>
+<text x="40" y="154" fill="#d4e9db" font-size="29" font-family="system-ui,Arial">Awaiting first public repository scan</text>
+<text x="40" y="196" fill="#94ac9c" font-size="17" font-family="system-ui,Arial">Generated from GitHub Linguist language bytes, not estimated proficiency.</text>
+</svg>
