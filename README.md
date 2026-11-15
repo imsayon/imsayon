@@ -43,10 +43,8 @@
 ### STATS
 
 <div align="center">
-  <img alt="GitHub stats" src="https://github-stats-extended.vercel.app/api?username=imsayon&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1514&title_color=9cd8b9&text_color=d0e0d6&icon_color=80c69f&rank_icon=github" width="49%"/>
-  <img alt="GitHub streak" src="https://streak-stats.demolab.com?user=imsayon&hide_border=true&background=0D1514&ring=91D4AF&fire=87C49E&currStreakLabel=9CD8B9&sideLabels=A2C2AF&sideNums=E3F3EA&dates=81998B&stroke=2D4C3C" width="49%"/>
+  <img src="./assets/engineering-dashboard.svg" alt="Self-hosted GitHub contribution dashboard showing the last 365 days, all-time contributions, current streak and longest streak" width="100%"/>
 </div>
-
 
 ### ARCADE
 
