@@ -16,3 +16,7 @@ The job runs daily at 05:19 UTC. If the token is missing, it preserves the exist
 Tests: `python -m unittest discover -s scripts -p 'test_profile_stats.py' -v`
 
 **Privacy:** Because the result is a README image, its aggregate numbers will be visible to profile visitors after the repository is published. The image deliberately does not reveal which private repositories contributed to them.
+
+## Contribution snake
+
+The snake workflow uses the same `PROFILE_STATS_TOKEN` for its GitHub contribution-calendar request, and the standard GitHub green palette. It calls the pinned third-party `Platane/snk/svg-only` action (currently pinned to `d8f6715049803e982ee5ff501b6b9b7d5deeb09b`). Because this action receives the read:user token, keep its version pinned and review third-party changes before updating it. To avoid sharing this token with a third-party action, disable the snake workflow or replace its generator with a first-party implementation. Run **Generate sage contribution snake** manually once after creating the secret.
