@@ -9,6 +9,7 @@ on:
     paths:
       - scripts/profile_languages.py
       - scripts/test_profile_languages.py
+      - assets/templates/languages-compact.svg
       - .github/workflows/profile-languages.yml
 
 permissions:
