@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 220" role="img" aria-labelledby="t">
+<title id="t">Contribution snake pending first real GitHub Actions generation</title>
+<style>.m{font-family:ui-monospace,monospace}.bar{animation:slide 2.5s ease-in-out infinite alternate}@keyframes slide{0%{transform:translateX(0)}100%{transform:translateX(720px)}}@media(prefers-reduced-motion:reduce){.bar{animation:none}}</style>
+<rect width="1100" height="220" rx="12" fill="#101a17"/>
+<rect x="1" y="1" width="1098" height="218" rx="11" fill="none" stroke="#365346" stroke-width="2"/>
+<text x="46" y="53" class="m" fill="#9bd4b4" font-size="16" letter-spacing="2">CONTRIBUTION ARCADE / LIVE DATA</text>
+<text x="46" y="105" class="m" fill="#d8e6dd" font-size="24">Generating your contribution snake…</text>
+<text x="46" y="141" class="m" fill="#8eaa9b" font-size="14">The workflow replaces this preview with your real activity grid.</text>
+<path d="M47 177H1050" stroke="#2b4a3b" stroke-width="6" stroke-linecap="round"/>
+<rect class="bar" x="49" y="174" width="180" height="6" rx="3" fill="#97dab4"/>
+</svg>
