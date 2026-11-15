@@ -2,20 +2,29 @@
 <title id="title">Languages used by file size</title>
 <desc id="desc">GitHub Linguist byte counts across {{REPO_COUNT}} public, owned, non-fork repositories. Bars show proportions by file size, not proficiency.</desc>
 <defs>
- <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#12231b"/><stop offset="1" stop-color="#0c1712"/></linearGradient>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#25292B"/><stop offset="1" stop-color="#111416"/></linearGradient>
  <style>
  .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
- .name{font-family:system-ui,Segoe UI,Arial,sans-serif;font-size:13.5px;font-weight:500;fill:#d5e7db}
- .pct{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:12px;fill:#bbd2c2}
+ .name{font-family:system-ui,Segoe UI,Arial,sans-serif;font-size:13.5px;font-weight:500;fill:#EDE8DF}
+ .pct{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:12px;fill:#BDC8BA}
  </style>
+<pattern id="satin" width="18" height="18" patternUnits="userSpaceOnUse"><path d="M0 3h18M0 14h18" stroke="#EDE8DF" opacity=".11" stroke-width=".3"/><circle cx="7" cy="9" r=".48" fill="#EDE8DF" opacity=".16"/></pattern>
 </defs>
 <rect width="560" height="360" rx="14" fill="url(#bg)"/>
-<rect x="1" y="1" width="558" height="358" rx="13" fill="none" stroke="#37604a" stroke-width="1.5"/>
-<text x="25" y="36" class="mono" font-size="13" font-weight="600" letter-spacing="1.2" fill="#b6dec3">LANGUAGES / BY FILE SIZE</text>
-<text x="535" y="35" text-anchor="end" class="mono" font-size="10" fill="#8eb89f">{{REPO_COUNT}} PUBLIC REPOS</text>
-<path d="M25 57H535" stroke="#315140" stroke-width="1.2"/>
+<rect x="3" y="3" width="554" height="354" rx="12" fill="url(#satin)" opacity=".30" pointer-events="none"/>
+<g fill="none" stroke="#8b7a66" opacity=".65" stroke-width=".85" pointer-events="none">
+ <path d="M324 13h87l11 9h107"/><path d="M25 13h59"/><path d="M29 326h64m346 0h64"/>
+ <path d="M469 322l5-6m7 6 5-6m7 6 5-6" stroke="#D1773C" stroke-width="1.5"/>
+</g>
+<g fill="#74736c" stroke="#d3c7b2" stroke-width=".45" opacity=".65" pointer-events="none">
+ <circle cx="10" cy="10" r="2.2"/><circle cx="550" cy="10" r="2.2"/><circle cx="10" cy="350" r="2.2"/><circle cx="550" cy="350" r="2.2"/>
+</g>
+<rect x="1" y="1" width="558" height="358" rx="13" fill="none" stroke="#8A7562" stroke-width="1.5"/>
+<text x="25" y="36" class="mono" font-size="13" font-weight="600" letter-spacing="1.2" fill="#B9DCBB">LANGUAGES / BY FILE SIZE</text>
+<text x="535" y="35" text-anchor="end" class="mono" font-size="10" fill="#A8B7AA">{{REPO_COUNT}} PUBLIC REPOS</text>
+<path d="M25 57H535" stroke="#505751" stroke-width="1.2"/>
 {{ROWS}}
-<path d="M25 337H535" stroke="#315140" stroke-width="1.2"/>
-<text x="25" y="350" class="mono" font-size="9" fill="#7b9d89">GITHUB LINGUIST · PUBLIC REPOS</text>
-<text x="535" y="350" text-anchor="end" class="mono" font-size="9" fill="#7b9d89">{{SYNCED}}</text>
+<path d="M25 337H535" stroke="#505751" stroke-width="1.2"/>
+<text x="25" y="350" class="mono" font-size="9" fill="#8F9D90">GITHUB LINGUIST · PUBLIC REPOS</text>
+<text x="535" y="350" text-anchor="end" class="mono" font-size="9" fill="#8F9D90">{{SYNCED}}</text>
 </svg>
