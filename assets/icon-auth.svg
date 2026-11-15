@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" role="img" aria-label="Authentication: JWT, OAuth 2.0 and RBAC">
 <title>Authentication: JWT, OAuth 2.0 and RBAC</title>
-<rect width="48" height="48" rx="11" fill="#202b29"/>
-<rect x=".8" y=".8" width="46.4" height="46.4" rx="10.2" fill="none" stroke="#40584b"/>
-<g stroke="#a9e6c4" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" fill="none"><path d="M24 7 37 12v10c0 8-5.5 14-13 18C16.5 36 11 30 11 22V12Z"/><circle cx="24" cy="20" r="4"/><path d="M24 24v7m0 0h5"/></g>
+<rect width="48" height="48" rx="11" fill="#222628"/><path d="M6 5H18" stroke="#A3D9A5" stroke-width=".75" opacity=".70"/><path d="M32 43H42" stroke="#D1773C" stroke-width=".75" opacity=".55"/>
+<rect x=".8" y=".8" width="46.4" height="46.4" rx="10.2" fill="none" stroke="#736C60"/>
+<g stroke="#A3D9A5" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" fill="none"><path d="M24 7 37 12v10c0 8-5.5 14-13 18C16.5 36 11 30 11 22V12Z"/><circle cx="24" cy="20" r="4"/><path d="M24 24v7m0 0h5"/></g>
 </svg>
