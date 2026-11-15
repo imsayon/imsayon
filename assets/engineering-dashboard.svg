@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 360" role="img" aria-labelledby="title desc">
 <title id="title">Sayon GitHub activity</title>
-<desc id="desc">GitHub contribution calendar: 1,255 in the last 365 days, 1,483 all time, 2 day current streak, 14 day longest streak.</desc>
+<desc id="desc">GitHub contribution calendar: 1,272 in the last 365 days, 1,500 all time, 2 day current streak, 14 day longest streak.</desc>
 <defs>
  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#12231b"/><stop offset="1" stop-color="#0c1712"/></linearGradient>
  <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#b8e8ca"/><stop offset="1" stop-color="#6bb68f"/></linearGradient>
@@ -22,10 +22,10 @@
 <path d="M25 57H535" stroke="#315140" stroke-width="1.2"/>
 <path d="M280 79V174" stroke="#315140" stroke-width="1.2"/>
 <text x="25" y="94" class="label">LAST 365 DAYS</text>
-<text x="25" y="145" class="value" font-size="43">1,255</text>
+<text x="25" y="145" class="value" font-size="43">1,272</text>
 <text x="25" y="169" class="sub">contributions</text>
 <text x="301" y="94" class="label">ALL TIME</text>
-<text x="301" y="145" class="value" font-size="43">1,483</text>
+<text x="301" y="145" class="value" font-size="43">1,500</text>
 <text x="301" y="169" class="sub">contributions</text>
 <path d="M25 191H535" stroke="#315140" stroke-width="1.2"/>
 <text x="25" y="217" class="label">CURRENT STREAK</text>
