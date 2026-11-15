@@ -124,7 +124,7 @@ def render(totals: Counter, repo_count: int, synced: str) -> str:
         rows.append(
             f'<g><title>{escape(name)}: {pct:.1f}%</title>'
             f'<text x="25" y="{y + 5}" class="name">{escape(name)}</text>'
-            f'<rect x="143" y="{y - 6}" width="{track_width:.1f}" height="12" rx="6" fill="#29342e"/>'
+            f'<rect x="143" y="{y - 6}" width="{track_width:.1f}" height="12" rx="6" fill="#353B39"/>'
             f'<rect x="143" y="{y - 6}" width="{colored_width:.2f}" height="12" '
             f'rx="{min(6.0, colored_width / 2):.2f}" fill="{color}"/>'
             f'<text x="535" y="{y + 5}" text-anchor="end" class="pct">{pct:.1f}%</text></g>'
