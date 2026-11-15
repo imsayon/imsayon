@@ -1,25 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1160 290" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 360" role="img" aria-labelledby="title desc">
 <title id="title">Languages used by file size</title>
-<desc id="desc">GitHub Linguist language bytes aggregated over 14 public, owned, non-fork repositories. The chart reflects repository file sizes, not skill levels or commits.</desc>
+<desc id="desc">GitHub Linguist byte counts across 14 public, owned, non-fork repositories. Bars show proportions by file size, not proficiency.</desc>
 <defs>
-  <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
-    <stop stop-color="#13221c"/><stop offset="1" stop-color="#0b1310"/>
-  </linearGradient>
-  <clipPath id="bar"><rect x="40" y="80" width="1080" height="21" rx="6"/></clipPath>
-  <style>
-    .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
-    .name{font-family:system-ui,Segoe UI,Arial,sans-serif;font-size:17px;font-weight:600;fill:#d2e5d8}
-    .pct{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:15px;fill:#94ac9c}
-  </style>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#12231b"/><stop offset="1" stop-color="#0c1712"/></linearGradient>
+ <style>
+ .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+ .name{font-family:system-ui,Segoe UI,Arial,sans-serif;font-size:13.5px;font-weight:500;fill:#d5e7db}
+ .pct{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:12px;fill:#bbd2c2}
+ </style>
 </defs>
-<rect width="1160" height="290" rx="16" fill="url(#background)"/>
-<rect x="1" y="1" width="1158" height="288" rx="15" fill="none" stroke="#345843" stroke-width="1.5"/>
-<text x="40" y="37" class="mono" font-size="14" font-weight="600" letter-spacing="1.7" fill="#b6dfc5">LANGUAGES / BY FILE SIZE</text>
-<text x="1120" y="37" text-anchor="end" class="mono" font-size="11" fill="#91b39f">14 PUBLIC REPOS</text>
-<line x1="40" y1="62" x2="1120" y2="62" stroke="#284535" stroke-width="1.4"/>
-<g clip-path="url(#bar)"><g><title>TypeScript: 44.2%</title><rect x="40.00" y="80" width="477.16" height="21" fill="#3178c6"/></g><g><title>JavaScript: 13.9%</title><rect x="517.16" y="80" width="149.66" height="21" fill="#f7df1e"/></g><g><title>C++: 11.1%</title><rect x="666.82" y="80" width="119.94" height="21" fill="#72b3e1"/></g><g><title>HTML: 10.2%</title><rect x="786.76" y="80" width="109.76" height="21" fill="#e67c55"/></g><g><title>Python: 9.0%</title><rect x="896.52" y="80" width="97.24" height="21" fill="#ffcb61"/></g><g><title>CSS: 7.5%</title><rect x="993.76" y="80" width="80.50" height="21" fill="#5a88e5"/></g><g><title>Java: 2.6%</title><rect x="1074.26" y="80" width="27.56" height="21" fill="#d3a475"/></g><g><title>Other: 1.7%</title><rect x="1101.82" y="80" width="18.18" height="21" fill="#697c75"/></g></g>
-<g transform="translate(42,145)"><circle cx="0" cy="-4" r="5" fill="#3178c6"/><text x="16" y="0" class="name">TypeScript</text><text x="16" y="23" class="pct">44.2%</text></g><g transform="translate(317,145)"><circle cx="0" cy="-4" r="5" fill="#f7df1e"/><text x="16" y="0" class="name">JavaScript</text><text x="16" y="23" class="pct">13.9%</text></g><g transform="translate(592,145)"><circle cx="0" cy="-4" r="5" fill="#72b3e1"/><text x="16" y="0" class="name">C++</text><text x="16" y="23" class="pct">11.1%</text></g><g transform="translate(867,145)"><circle cx="0" cy="-4" r="5" fill="#e67c55"/><text x="16" y="0" class="name">HTML</text><text x="16" y="23" class="pct">10.2%</text></g><g transform="translate(42,202)"><circle cx="0" cy="-4" r="5" fill="#ffcb61"/><text x="16" y="0" class="name">Python</text><text x="16" y="23" class="pct">9.0%</text></g><g transform="translate(317,202)"><circle cx="0" cy="-4" r="5" fill="#5a88e5"/><text x="16" y="0" class="name">CSS</text><text x="16" y="23" class="pct">7.5%</text></g><g transform="translate(592,202)"><circle cx="0" cy="-4" r="5" fill="#d3a475"/><text x="16" y="0" class="name">Java</text><text x="16" y="23" class="pct">2.6%</text></g><g transform="translate(867,202)"><circle cx="0" cy="-4" r="5" fill="#697c75"/><text x="16" y="0" class="name">Other</text><text x="16" y="23" class="pct">1.7%</text></g>
-<line x1="40" y1="261" x2="1120" y2="261" stroke="#284535" stroke-width="1.2"/>
-<text x="40" y="279" class="mono" font-size="10" fill="#719481">GITHUB LINGUIST / PUBLIC OWNED REPOS · EXCLUDES FORKS</text>
-<text x="1120" y="279" text-anchor="end" class="mono" font-size="10" fill="#719481">15 Nov 2026 UTC</text>
+<rect width="560" height="360" rx="14" fill="url(#bg)"/>
+<rect x="1" y="1" width="558" height="358" rx="13" fill="none" stroke="#37604a" stroke-width="1.5"/>
+<text x="25" y="36" class="mono" font-size="13" font-weight="600" letter-spacing="1.2" fill="#b6dec3">LANGUAGES / BY FILE SIZE</text>
+<text x="535" y="35" text-anchor="end" class="mono" font-size="10" fill="#8eb89f">14 PUBLIC REPOS</text>
+<path d="M25 57H535" stroke="#315140" stroke-width="1.2"/>
+<g><title>TypeScript: 44.2%</title><text x="25" y="96" class="name">TypeScript</text><rect x="143" y="85" width="305.0" height="12" rx="6" fill="#29342e"/><rect x="143" y="85" width="134.75" height="12" rx="6.00" fill="#3178c6"/><text x="535" y="96" text-anchor="end" class="pct">44.2%</text></g>
+<g><title>JavaScript: 13.9%</title><text x="25" y="126" class="name">JavaScript</text><rect x="143" y="115" width="305.0" height="12" rx="6" fill="#29342e"/><rect x="143" y="115" width="42.27" height="12" rx="6.00" fill="#f7df1e"/><text x="535" y="126" text-anchor="end" class="pct">13.9%</text></g>
+<g><title>C++: 11.1%</title><text x="25" y="156" class="name">C++</text><rect x="143" y="145" width="305.0" height="12" rx="6" fill="#29342e"/><rect x="143" y="145" width="33.87" height="12" rx="6.00" fill="#72b3e1"/><text x="535" y="156" text-anchor="end" class="pct">11.1%</text></g>
+<g><title>HTML: 10.2%</title><text x="25" y="186" class="name">HTML</text><rect x="143" y="175" width="305.0" height="12" rx="6" fill="#29342e"/><rect x="143" y="175" width="31.00" height="12" rx="6.00" fill="#e67c55"/><text x="535" y="186" text-anchor="end" class="pct">10.2%</text></g>
+<g><title>Python: 9.0%</title><text x="25" y="216" class="name">Python</text><rect x="143" y="205" width="305.0" height="12" rx="6" fill="#29342e"/><rect x="143" y="205" width="27.46" height="12" rx="6.00" fill="#ffcb61"/><text x="535" y="216" text-anchor="end" class="pct">9.0%</text></g>
+<g><title>CSS: 7.5%</title><text x="25" y="246" class="name">CSS</text><rect x="143" y="235" width="305.0" height="12" rx="6" fill="#29342e"/><rect x="143" y="235" width="22.73" height="12" rx="6.00" fill="#5a88e5"/><text x="535" y="246" text-anchor="end" class="pct">7.5%</text></g>
+<g><title>Java: 2.6%</title><text x="25" y="276" class="name">Java</text><rect x="143" y="265" width="305.0" height="12" rx="6" fill="#29342e"/><rect x="143" y="265" width="7.78" height="12" rx="3.89" fill="#d3a475"/><text x="535" y="276" text-anchor="end" class="pct">2.6%</text></g>
+<g><title>Other: 1.7%</title><text x="25" y="306" class="name">Other</text><rect x="143" y="295" width="305.0" height="12" rx="6" fill="#29342e"/><rect x="143" y="295" width="5.13" height="12" rx="2.57" fill="#697c75"/><text x="535" y="306" text-anchor="end" class="pct">1.7%</text></g>
+<path d="M25 337H535" stroke="#315140" stroke-width="1.2"/>
+<text x="25" y="350" class="mono" font-size="9" fill="#7b9d89">GITHUB LINGUIST · PUBLIC REPOS</text>
+<text x="535" y="350" text-anchor="end" class="mono" font-size="9" fill="#7b9d89">15 Nov 2026 UTC</text>
 </svg>
