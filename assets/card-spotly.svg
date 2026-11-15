@@ -2,10 +2,10 @@
 <defs>
  <linearGradient id="border" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#92B69A"/><stop offset="1" stop-color="#454C4A"/></linearGradient>
  <linearGradient id="graphite" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#272A2C"/><stop offset=".48" stop-color="#1A1D1F"/><stop offset="1" stop-color="#131719"/></linearGradient>
- <pattern id="etch" width="13" height="13" patternUnits="userSpaceOnUse"><path d="M0 12h13" fill="none" stroke="#EDE8DF" opacity=".11" stroke-width=".35"/><circle cx="3" cy="6" r=".35" fill="#EDE8DF" opacity=".17"/></pattern>
+ <pattern id="etch" width="13" height="13" patternUnits="userSpaceOnUse"><path d="M0 12h13" fill="none" stroke="#EDE8DF" opacity=".25" stroke-width=".35"/><circle cx="3" cy="6" r=".35" fill="#EDE8DF" opacity=".23"/></pattern>
 </defs>
 <rect width="560" height="190" rx="14" fill="url(#graphite)"/>
-<rect x="3" y="3" width="554" height="184" rx="11" fill="url(#etch)" opacity=".26"/>
+<rect x="3" y="3" width="554" height="184" rx="11" fill="url(#etch)" opacity=".53"/>
 <g stroke="#92B69A" stroke-width="1" fill="none" opacity=".24"><path d="M328 90c39-42 86-37 119-80M323 106c48-45 93-38 141-93M323 123c44-30 88-28 120-55M331 139c47-25 83-18 111-31M343 155c43-16 70-5 103-28"/><circle cx="402" cy="82" r="36" stroke-dasharray="3 5"/></g>
 <g fill="none" stroke="#92B69A" stroke-width=".9" opacity=".7">
   <path d="M13 13h60l11 8h44 M436 13h73l16 10h22"/>
