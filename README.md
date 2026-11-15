@@ -9,8 +9,8 @@
 </div>
 
 - Building **backend infrastructure** and exploring **distributed systems**.
-- Practising **DSA** on **LeetCode** and **CodeChef**.
-- Learning through **storage engines**, **developer tools**, and real-world projects.
+- Practising **DSA on LeetCode** and **competitive programming on CodeChef**.
+- Exploring **API engineering**, **event-driven messaging**, **reliable job processing**, and **storage-engine internals** through real-world projects.
 
 
 ## TOOLCHAIN
@@ -88,9 +88,8 @@
 ## ACTIVITY
 
 <div align="center">
-  <img src="./assets/engineering-dashboard.svg" alt="GitHub contributions and streaks from verified GitHub data" width="100%"/>
-  <br/>
-  <img src="./assets/languages-by-size.svg" alt="Languages used by file size across public non-fork repositories" width="100%"/>
+  <img src="./assets/engineering-dashboard.svg" alt="Verified GitHub contributions, total activity and circular streak visual" width="49%"/>
+  <img src="./assets/languages-by-size.svg" alt="Horizontal bars showing languages by repository file size" width="49%"/>
 </div>
 
 ## CONTRIBUTION
