@@ -9,6 +9,7 @@ on:
     paths:
       - scripts/profile_stats.py
       - scripts/test_profile_stats.py
+      - assets/templates/activity-compact.svg
       - .github/workflows/profile-stats.yml
 
 permissions:
