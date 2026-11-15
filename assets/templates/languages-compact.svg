@@ -11,8 +11,8 @@
 </defs>
 <rect width="560" height="360" rx="14" fill="url(#bg)"/>
 <rect x="1" y="1" width="558" height="358" rx="13" fill="none" stroke="#37604a" stroke-width="1.5"/>
-<text x="25" y="36" class="mono" font-size="13" font-weight="600" letter-spacing="1.2" fill="#b6dec3">LANGUAGES / FILE SIZE</text>
-<text x="535" y="35" text-anchor="end" class="mono" font-size="10" fill="#8eb89f">{{REPO_COUNT}} REPOS</text>
+<text x="25" y="36" class="mono" font-size="13" font-weight="600" letter-spacing="1.2" fill="#b6dec3">LANGUAGES / BY FILE SIZE</text>
+<text x="535" y="35" text-anchor="end" class="mono" font-size="10" fill="#8eb89f">{{REPO_COUNT}} PUBLIC REPOS</text>
 <path d="M25 57H535" stroke="#315140" stroke-width="1.2"/>
 {{ROWS}}
 <path d="M25 337H535" stroke="#315140" stroke-width="1.2"/>
