@@ -2,15 +2,17 @@
 <title id="title">Sayon — systems engineer terminal introduction</title>
 <desc id="desc">Animated terminal-style introduction in charcoal and sage. Contains genuine project interests and profile links.</desc>
 <defs>
-  <radialGradient id="back"><stop stop-color="#1f4237"/><stop offset="1" stop-color="#0b1211"/></radialGradient>
-  <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" stroke="#335548" stroke-width=".6" fill="none" opacity=".20"/></pattern>
-  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#8cdab6"/><stop offset="1" stop-color="#d1f0de"/></linearGradient>
+  <radialGradient id="back"><stop stop-color="#29322f"/><stop offset="1" stop-color="#101315"/></radialGradient>
+  <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" stroke="#4b5550" stroke-width=".6" fill="none" opacity=".20"/></pattern>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#A3D9A5"/><stop offset="1" stop-color="#EDE8DF"/></linearGradient>
+  <pattern id="brushed" patternUnits="userSpaceOnUse" width="19" height="19"><path d="M0 1h19 M0 13h19" stroke="#EDE8DF" stroke-width=".32" opacity=".09"/><circle cx="8" cy="8" r=".42" fill="#EDE8DF" opacity=".11"/></pattern>
+  <linearGradient id="metal" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#343838"/><stop offset=".55" stop-color="#1D2224"/><stop offset="1" stop-color="#101315"/></linearGradient>
 </defs>
 <style>
   .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
-  .muted{fill:#829a90}
-  .body{fill:#cfe0d6}
-  .sage{fill:#94d8b7}
+  .muted{fill:#93a198}
+  .body{fill:#EDE8DF}
+  .sage{fill:#A3D9A5}
   .appears{animation:appear 12s both infinite}
   .one{animation-delay:0s}.two{animation-delay:.35s}.three{animation-delay:.75s}.four{animation-delay:1.15s}
   @keyframes appear{0%,4%{opacity:0;transform:translateY(5px)}12%,92%{opacity:1;transform:translateY(0)}98%,100%{opacity:0}}
@@ -20,25 +22,39 @@
 </style>
 <rect width="1200" height="440" fill="url(#back)"/>
 <rect width="1200" height="440" fill="url(#grid)"/>
-<rect x="52" y="31" width="1096" height="372" rx="14" fill="#101a17" stroke="#375647" stroke-width="1.5"/>
-<rect x="52" y="31" width="1096" height="46" rx="14" fill="#1a2b24"/>
-<path d="M52 65H1148V77H52Z" fill="#1a2b24"/>
-<path d="M52 77H1148" stroke="#375647"/>
+<rect x="52" y="31" width="1096" height="372" rx="14" fill="#171B1D" stroke="#655e53" stroke-width="1.5"/>
+<rect x="56" y="35" width="1088" height="364" rx="12" fill="none" stroke="#9f917b" stroke-opacity=".30" stroke-width=".8"/>
+<rect x="58" y="79" width="1084" height="286" rx="4" fill="url(#brushed)" opacity=".33" pointer-events="none"/>
+<rect x="52" y="31" width="1096" height="46" rx="14" fill="url(#metal)"/>
+<path d="M52 65H1148V77H52Z" fill="#252A2A"/>
+<path d="M52 77H1148" stroke="#5b625c"/>
 <circle cx="85" cy="54" r="6" fill="#e87e7e"/><circle cx="107" cy="54" r="6" fill="#ecc87b"/><circle cx="129" cy="54" r="6" fill="#84c39c"/>
 <text x="600" y="58" class="mono muted" font-size="12" text-anchor="middle" letter-spacing="1">imsayon@fedora   ~   profile.sh</text>
 <text x="1091" y="58" class="mono sage" font-size="10" text-anchor="end">● ONLINE</text>
+<g fill="none" pointer-events="none">
+  <path d="M828 42h134l20 12h112" stroke="#8C7863" stroke-width="1.05" opacity=".65"/>
+  <path d="M870 70h118l13-9h110" stroke="#626b66" stroke-width=".7" opacity=".7"/>
+  <path d="M935 309h90a62 62 0 0 0 70-62" stroke="#7EA6C9" stroke-opacity=".26" stroke-dasharray="3 8"/>
+  <path d="M1078 146h20m-10-10v20" stroke="#c6b99d" opacity=".30"/>
+  <path d="M1027 94l6-9m9 9 6-9m9 9 6-9" stroke="#D1773C" stroke-width="2.4" opacity=".88"/>
+  <path d="M52 375h238 M880 375h268" stroke="#D1773C" stroke-width=".8" opacity=".42"/>
+  <path d="M970 388l7-8m7 8 7-8m7 8 7-8" stroke="#D1773C" stroke-width="2" opacity=".7"/>
+</g>
+<g fill="#918675" stroke="#EDE8DF" stroke-width=".45" opacity=".65">
+ <circle cx="64" cy="43" r="2.1"/><circle cx="1136" cy="43" r="2.1"/><circle cx="64" cy="390" r="2.1"/><circle cx="1136" cy="390" r="2.1"/>
+</g>
 <g class="mono" font-size="15">
   <text x="85" y="111" class="sage">❯</text><text x="108" y="111" class="body">whoami</text>
   <g class="appears one">
-    <text x="85" y="168" font-family="system-ui,Segoe UI,sans-serif" font-weight="700" font-size="45" fill="url(#accent)">Sayon<tspan fill="#93b4a3">.</tspan></text>
+    <text x="85" y="168" font-family="system-ui,Segoe UI,sans-serif" font-weight="700" font-size="45" fill="url(#accent)">Sayon<tspan fill="#b9c1b5">.</tspan></text>
     <text x="86" y="197" font-size="16" class="body">Backend engineering  /  distributed systems  /  infrastructure</text>
   </g>
   <g class="appears two"><text x="85" y="241" class="sage">❯</text><text x="108" y="241" class="body">cat ./currently</text></g>
   <g class="appears three"><text x="85" y="268" class="body">→ storage engines  ·  concurrency  ·  reliable backend software</text></g>
   <g class="appears four"><text x="85" y="291" class="body">→ building with C++ / TypeScript  ·  learning by shipping systems</text></g>
   <text x="85" y="347" class="sage">❯</text><text x="108" y="347" class="body">_</text>
-  <rect class="cursor" x="128" y="330" width="10" height="20" fill="#92d6b3"/>
+  <rect class="cursor" x="128" y="330" width="10" height="20" fill="#A3D9A5"/>
 </g>
-<path d="M52 370H1148" stroke="#375647"/>
+<path d="M52 370H1148" stroke="#5b625c"/>
 <g class="mono muted" font-size="11"><text x="83" y="390">utf-8   ·   bash   ·   linux</text><text x="1110" y="390" text-anchor="end">github.com/imsayon  /  made to build</text></g>
 </svg>
