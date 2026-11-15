@@ -30,7 +30,7 @@
 <g class="mono" font-size="15">
   <text x="85" y="111" class="sage">❯</text><text x="108" y="111" class="body">whoami</text>
   <g class="appears one">
-    <text x="85" y="168" font-family="system-ui,Segoe UI,sans-serif" font-weight="700" font-size="45" fill="url(#accent)">Sayon Mondal<tspan fill="#93b4a3">.</tspan></text>
+    <text x="85" y="168" font-family="system-ui,Segoe UI,sans-serif" font-weight="700" font-size="45" fill="url(#accent)">Sayon<tspan fill="#93b4a3">.</tspan></text>
     <text x="86" y="197" font-size="16" class="body">Backend engineering  /  distributed systems  /  infrastructure</text>
   </g>
   <g class="appears two"><text x="85" y="241" class="sage">❯</text><text x="108" y="241" class="body">cat ./currently</text></g>
