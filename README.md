@@ -36,6 +36,17 @@
 
 <sub>Node.js · Express · Next.js · Tailwind CSS</sub>
 
+**Backend & messaging**
+
+<p>
+  <img src="./assets/icon-auth.svg" alt="Authentication and access control" title="JWT · OAuth 2.0 · RBAC" width="44" height="44"/>
+  <img src="./assets/icon-bullmq.svg" alt="BullMQ background jobs" title="BullMQ · Redis-backed queues" width="44" height="44"/>
+  <img src="https://skillicons.dev/icons?i=kafka&amp;theme=dark" alt="Apache Kafka" title="Apache Kafka" width="44" height="44"/>
+  <img src="./assets/icon-webhooks.svg" alt="Webhooks" title="Webhooks · signing · delivery" width="44" height="44"/>
+</p>
+
+<sub>JWT · OAuth 2.0 · RBAC · BullMQ · Kafka · Webhooks</sub>
+
 **Data**
 
 <p>
